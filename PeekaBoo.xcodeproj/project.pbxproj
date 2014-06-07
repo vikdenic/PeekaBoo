@@ -32,6 +32,7 @@
 		93C7F796194106E800D02AC9 /* thom.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C7F78F194106E800D02AC9 /* thom.png */; };
 		93C7F797194106E800D02AC9 /* brandon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C7F790194106E800D02AC9 /* brandon.png */; };
 		93C7F798194106E800D02AC9 /* ryan.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C7F791194106E800D02AC9 /* ryan.png */; };
+		B041A7AB1942654B0060E435 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B041A7AA1942654B0060E435 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		93C7F78F194106E800D02AC9 /* thom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thom.png; path = ../thom.png; sourceTree = "<group>"; };
 		93C7F790194106E800D02AC9 /* brandon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brandon.png; path = ../brandon.png; sourceTree = "<group>"; };
 		93C7F791194106E800D02AC9 /* ryan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ryan.png; path = ../ryan.png; sourceTree = "<group>"; };
+		B041A7A91942654B0060E435 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B041A7AA1942654B0060E435 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				93C7F7171940F27B00D02AC9 /* AppDelegate.h */,
 				93C7F7181940F27B00D02AC9 /* AppDelegate.m */,
 				93C7F71D1940F27B00D02AC9 /* Images.xcassets */,
+				B041A7A91942654B0060E435 /* User.h */,
+				B041A7AA1942654B0060E435 /* User.m */,
 				93C7F71A1940F27B00D02AC9 /* PeekaBoo.xcdatamodeld */,
 				93C7F70F1940F27B00D02AC9 /* Supporting Files */,
 			);
@@ -300,6 +305,7 @@
 			files = (
 				93C7F7851940F5C400D02AC9 /* MasterViewController.m in Sources */,
 				93C7F7191940F27B00D02AC9 /* AppDelegate.m in Sources */,
+				B041A7AB1942654B0060E435 /* User.m in Sources */,
 				93C7F71C1940F27B00D02AC9 /* PeekaBoo.xcdatamodeld in Sources */,
 				93C7F7151940F27B00D02AC9 /* main.m in Sources */,
 				93C7F78A1941048C00D02AC9 /* CustomCollectionViewCell.m in Sources */,
@@ -499,6 +505,7 @@
 				93C7F7371940F27B00D02AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93C7F7381940F27B00D02AC9 /* Build configuration list for PBXNativeTarget "PeekaBooTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				93C7F73A1940F27B00D02AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
