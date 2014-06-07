@@ -50,6 +50,7 @@
                                         <connections>
                                             <outlet property="cellImageView" destination="MPZ-dx-6ce" id="KlW-iP-Vez"/>
                                             <outlet property="cellTitle" destination="0qR-MX-jwf" id="SVl-yn-SXU"/>
+                                            <segue destination="YzP-6a-vip" kind="push" identifier="detailSegue" id="HWC-Kb-RVj"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -69,6 +70,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X3j-FE-AB7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="693" y="-114"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="Dja-z6-gTM">
+            <objects>
+                <viewController id="YzP-6a-vip" customClass="DetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f91-Ey-fIt"/>
+                        <viewControllerLayoutGuide type="bottom" id="fjd-zF-9Q0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aqI-7L-OJD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Epw-DG-x0l">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iN9-ZR-r3n"/>
+                    <connections>
+                        <outlet property="myScrollView" destination="Epw-DG-x0l" id="SGu-Kd-fMr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="czR-zV-TcE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1266" y="-114"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XSX-qO-3Ml">

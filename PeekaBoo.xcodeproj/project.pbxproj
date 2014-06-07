@@ -33,6 +33,7 @@
 		93C7F797194106E800D02AC9 /* brandon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C7F790194106E800D02AC9 /* brandon.png */; };
 		93C7F798194106E800D02AC9 /* ryan.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C7F791194106E800D02AC9 /* ryan.png */; };
 		B041A7AB1942654B0060E435 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B041A7AA1942654B0060E435 /* User.m */; };
+		B0A636811942BE66002D86B7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A636801942BE66002D86B7 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		93C7F791194106E800D02AC9 /* ryan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ryan.png; path = ../ryan.png; sourceTree = "<group>"; };
 		B041A7A91942654B0060E435 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		B041A7AA1942654B0060E435 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		B0A6367F1942BE66002D86B7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B0A636801942BE66002D86B7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 		93C7F6FA1940F27B00D02AC9 = {
 			isa = PBXGroup;
 			children = (
+				B0A6367F1942BE66002D86B7 /* DetailViewController.h */,
+				B0A636801942BE66002D86B7 /* DetailViewController.m */,
 				93C7F7861940FED600D02AC9 /* Storyboard.storyboard */,
 				93C7F70E1940F27B00D02AC9 /* PeekaBoo */,
 				93C7F72B1940F27B00D02AC9 /* PeekaBooTests */,
@@ -309,6 +314,7 @@
 				93C7F71C1940F27B00D02AC9 /* PeekaBoo.xcdatamodeld in Sources */,
 				93C7F7151940F27B00D02AC9 /* main.m in Sources */,
 				93C7F78A1941048C00D02AC9 /* CustomCollectionViewCell.m in Sources */,
+				B0A636811942BE66002D86B7 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

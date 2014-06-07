@@ -9,6 +9,7 @@
 #import "MasterViewController.h"
 #import "CustomCollectionViewCell.h"
 #import "User.h"
+#import "DetailViewController.h"
 
 @interface MasterViewController () <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 @property (weak, nonatomic) IBOutlet UICollectionView *homeCollectionView;
@@ -41,7 +42,6 @@
     {
         [self setStockUsers];
     }
-    NSLog(@"fetch happening");
     [self.homeCollectionView reloadData];
 }
 - (void)setStockUsers
@@ -120,7 +120,13 @@
 }
 
 
+#pragma mark - Segue Methods
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    DetailViewController *detailVC = segue.destinationViewController;
+    detailVC.detailInstanceManagedObjectContext = self.managedObjectContext;
+}
 
 
 
